@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=DynaPuff:wght@400..700&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+#container{
+   height: 100vh;
+   width: 100vw;
+   background-color: rgb(235, 183, 114);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   flex-direction: column;
+}
+#cont01{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+#cont02{
+   height: 40vh;
+   width: 40vw;
+   background-color: aliceblue;
+   border-radius: 10vh 10vw;
+}
+#cont1{
+   height: 40vh;
+   width: 40vw;
+   background-color: aliceblue;
+   border-radius: 10vh 10vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#cont2{
+   height: 40vh;
+   width: 40vw;
+   background-color: aliceblue;
+   border-radius: 10vw 10vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#cont3{
+   height: 40vh;
+   width: 40vw;
+   background-color: aliceblue;
+   border-radius: 300% 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#cont1-1{
+   height:20vh;
+   width: 20vw;
+   background-color:  rgb(235, 183, 114);
+   border-radius: 10vh 10vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#cont1-2{
+   height:20vh;
+   width: 20vw;
+   background-color:  #ebb772;
+   border-radius: 10vw 10vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#cont1-3{
+   height:20vh;
+   width: 20vw;
+   background-color:  #ebb772;
+   border-radius: 10vw 10vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#btn1{
+   background-color:#ebb772;
+   color:  aliceblue;
+   font-size: 30px;
+   height: 40px;
+   width: 150px;
+   border: none;
+   font-family: "DynaPuff", system-ui;
+ margin-left: 90px;
+ text-decoration: none;
+}
+#btn1:hover{
+   color: #265e0c;
+   font-size: 36px;
+   text-shadow: 2px 3px black;
+   margin-left: 60px;
+}
+#btn2{
+   background-color:#ebb772;
+   color:  aliceblue;
+   font-size: 30px;
+   height: 40px;
+   width: 150px;
+   border: none;
+   font-family: "DynaPuff", system-ui;
+   text-decoration: none;
+   margin-left: 65px;
+}
+#btn2:hover{
+   color: #265e0c;
+   font-size: 36px;
+   text-shadow: 2px 3px black;
+   margin-left:40px;
+}
+span{
+   font-size: 30px;
+   color:#aa1919;
+   font-family: "DynaPuff", system-ui;
+   margin-bottom: 30px;
+   text-shadow: 1.5px 2px black ;
+}
